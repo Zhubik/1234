@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: black;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+            color: blueviolet;
+        }
+        p {
+            font-size: 16px;
+        }
+        em {
+            color: purple;
+        }
+        select, input[type="text"], input[type="password"] {
+            margin-top: 10px;
+            padding: 10px;
+            border: 2px solid purple;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            border: none;
+            background-color: purple;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Заголовок 3-го уровня</h3>
+        <p>Текст <em>курсивом</em>, <strong>жирным</strong>, <strike>зачеркнутым</strike>, <small>маленьким шрифтом</small>.</p>
+        <img src="image.jpg" alt="Картинка">
+        
+        <form>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите имя"><br><br>
+            
+            <label for="surname">Ваше фамилия:</label>
+            <input type="text" id="surname" name="surname" placeholder="Введите фамилию"><br><br>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль"><br><br>
+            
+            <label for="select">Выбор:</label>
+            <select id="select" name="select">
+                <option value="option1">Вариант 1</option>
+                <option value="option2">Вариант 2</option>
+                <option value="option3">Вариант 3</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>
